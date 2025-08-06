@@ -9,8 +9,30 @@ body {
   background-color: white;
 }
 
+header {
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  display: grid;
+  grid-template-columns: 100px 1rem 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "symbol . title";
+  margin: 1rem 0;
+  padding: 0 0.5rem 0 0;
+}
+
+.header-symbol {
+  grid-area: symbol;
+  padding-left: 0.5rem;
+}
+
+.header-title {
+  grid-area: title;
+}
+
 main {
-  padding: 1rem;
+  padding: 0 1rem 1rem;
 }
 
 h1 {
