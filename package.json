@@ -1,0 +1,28 @@
+{
+  "name": "esday-demo-html",
+  "version": "0.4.1",
+  "description": "Minimal demo for using the esday library in a plain html page",
+  "main": "src/index.html",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BePo65/esday-demo-html.git"
+  },
+  "keywords": [
+    "esday",
+    "demo",
+    "date",
+    "time",
+    "immutable",
+    "moment",
+    "dayjs",
+    "format"
+  ],
+  "author": "BePo65",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BePo65/esday-demo-html/issues"
+  },
+  "homepage": "https://github.com/BePo65/esday-demo-html#readme"
+}

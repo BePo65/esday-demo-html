@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EsDay demo html</title>
+    <base href="/esday-demo-html/" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "esday": "https://unpkg.com/esday@0.4.1/index.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>Demo for using EsDay-Library</h1>
+      <p>The EsDay library is a direct replacement of <a href="https://momentjs.com/" target="_blank">Moment.js</a> and <a href="https://day.js.org/" target="_blank">dayjs</a> written in typescript as ESModule.</p>
+      <p>This demo shows how to use the EsDay library in a simple html web page.</p>
+      <p><button id="set-output">Set future date</button><button id="reset-output">Reset future date</button></p>
+      <p>
+        <span>Now it is </span>
+        <span id="date-now">??</span>
+      </p>
+      <p>
+        <span>in 2 days it is </span>
+        <span id="date-then">??</span>
+      </p>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
