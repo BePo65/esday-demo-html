@@ -9,7 +9,8 @@
     <script type="importmap">
       {
         "imports": {
-          "esday": "https://unpkg.com/esday@0.4.1/index.js"
+          "esday": "https://unpkg.com/esday@0.5.0/index.js",
+          "esday/plugins/advancedFormat": "https://unpkg.com/esday@0.5.0/plugins/advancedFormat/index.js"
         }
       }
     </script>
@@ -24,15 +25,15 @@
       <p>This demo shows how to use the ESday library in a simple html web page.</p>
       <p><button id="set-output">Set future date</button><button id="reset-output">Reset future date</button></p>
       <p>
-        <span>Now it is </span>
+        <span class="date-now-label">Now it is</span>
         <span id="date-now">??</span>
       </p>
       <p>
-        <span>in 2 days it is </span>
+        <span class="date-then-label">in 2 days it will be</span>
         <span id="date-then">??</span>
       </p>
     </main>
-    <p class="footer">ESday-version 0.4.1</p>
+    <p class="footer">ESday-version 0.5.0</p>
     <script type="module" src="script.js"></script>
   </body>
 </html>
