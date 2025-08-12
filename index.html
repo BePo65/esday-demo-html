@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESday demo html</title>
+    <base href="/esday-demo-html/" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "esday": "https://unpkg.com/esday@0.5.0/index.js",
+          "esday/plugins/advancedFormat": "https://unpkg.com/esday@0.5.0/plugins/advancedFormat/index.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <img class="header-symbol" src="assets/esday.png" alt="ESday project icon" />
+      <h1 class="header-title">Demo for using the ESday-Library in a plain web page</h1>
+    </header>
+    <main>
+      <p>The <a href="https://github.com/g-mero/esday">ESday library</a> is a direct replacement of <a href="https://momentjs.com/" target="_blank">Moment.js</a> and <a href="https://day.js.org/" target="_blank">dayjs</a> written in typescript as ESModule.</p>
+      <p>This demo shows how to use the ESday library in a simple html web page.</p>
+      <p><button id="set-output">Set future date</button><button id="reset-output">Reset future date</button></p>
+      <p>
+        <span class="date-now-label">Now it is</span>
+        <span id="date-now">??</span>
+      </p>
+      <p>
+        <span class="date-then-label">in 5 days it will be</span>
+        <span id="date-then">??</span>
+      </p>
+    </main>
+    <p class="footer">ESday-version 0.5.0</p>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
