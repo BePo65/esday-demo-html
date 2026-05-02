@@ -1,10 +1,9 @@
 {
   "name": "esday-demo-html",
-  "version": "0.5.0-2",
+  "version": "0.6.3",
   "description": "Minimal demo for using the esday library in a plain html page",
   "main": "src/index.html",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BePo65/esday-demo-html.git"
